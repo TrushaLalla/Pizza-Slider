@@ -3,11 +3,14 @@
 This is a React-based animated pizza slider built with Vite for fast development and Framer Motion for smooth animations.
 I use React’s useState hook to track the currently active pizza, rotation angle, and slider position. When the user clicks navigation arrows, the state updates, and Framer Motion animates the UI accordingly.
 What exactly controls the UI are: 
+
 activeIndex
 → determines which pizza (image, title, description, background) is displayed
+
 rotation
 → controls pizza image rotation animation
-<u>stepIndex</u>
+
+stepIndex
 → controls circular indicator movement.
 Rather than manually manipulating the DOM, UI updates are entirely driven by React state. When state changes, React re-renders the component and Framer Motion animates the transition.
 Currently, two official plugins are available:
