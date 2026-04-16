@@ -12,6 +12,7 @@ rotation
 
 stepIndex
 → controls circular indicator movement.
+
 Rather than manually manipulating the DOM, UI updates are entirely driven by React state. When state changes, React re-renders the component and Framer Motion animates the transition.
 Currently, two official plugins are available:
 
