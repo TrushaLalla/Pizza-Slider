@@ -31,7 +31,7 @@ The App.jsx acts as the main container component for root React. Currently it re
 
 The Components folder contains reusable UI pieces.
 
-All images related to pizza bases and toppings are placed inside an Images subfolder under Public folder.
+Houses all images related to pizza bases and toppings inside an Image subfolder under Public folder.
 ## React Compiler
 
 The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
