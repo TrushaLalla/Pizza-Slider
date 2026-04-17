@@ -1,7 +1,8 @@
 # React + Vite
 
 This is a Single Page Application (SPA), React-based animated pizza slider built with Vite for fast development and Framer Motion for smooth animations.
-I use React’s useState hook to track the currently active pizza, rotation angle, and slider position. When the user clicks navigation arrows, the state updates, and Framer Motion animates the UI accordingly.Interaction is currently left and right button‑driven to move pizzas between positions. While the visual design suggests hover-based interaction, hover behavior is not implemented in this version by design rather than by omission. This was a deliberate scope decision rather than a bug, and it could be added later by introducing interactive DOM elements. 
+I used React’s useState hook to track the currently active pizza, rotation angle, and slider position. When the user clicks navigation arrows, the state updates, and Framer Motion animates the UI accordingly.Interaction is currently explicitly button‑driven. Users navigate left and right using arrow controls to move pizzas between positions.
+Although the visual design suggests hover‑based interaction, hover behavior is intentionally not implemented in this version. This was a deliberate scope decision rather than a bug. Hover interaction could be added in the future by introducing additional interactive DOM elements and event handlers.
 What exactly controls the UI are: 
 
 ~activeIndex
