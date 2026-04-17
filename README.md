@@ -1,6 +1,6 @@
 # React + Vite
 
-This is a React-based animated pizza slider built with Vite for fast development and Framer Motion for smooth animations.
+This is a Single Page Application (SPA), React-based animated pizza slider built with Vite for fast development and Framer Motion for smooth animations.
 I use React’s useState hook to track the currently active pizza, rotation angle, and slider position. When the user clicks navigation arrows, the state updates, and Framer Motion animates the UI accordingly.
 What exactly controls the UI are: 
 
@@ -18,7 +18,18 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 
+The Hero.jsx folder is the heart of the app, It holds pizza metadata, manages state, controls animations and handles navigation logic using Framer Motion.
 
+The Index.html is a single file as the entry point. React mounts the entire application inside the root div. From there, React takes control of all rendering. Th
+
+The Navbar.jsx which is a stateless UI component is responsible only for displaying navigations and CTA buttons etc. layouts and is just purely for presentation.
+
+The App.jsx acts as the main container component for root React. Currently it renders the Hero component but its designed to scale as the app grows.
+
+The Components folder contains reusable UI pieces.
+
+All images related to pizza bases and toppings are placed inside an Images subfolder under Public folder.
 ## React Compiler
 
 The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
