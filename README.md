@@ -22,7 +22,7 @@ Currently, two official plugins are available:
  
 The Hero.jsx folder is the heart of the app, It holds pizza metadata, manages state, controls animations and handles navigation logic using Framer Motion.
 
-The Index.html is a single file as the entry point. React mounts the entire application inside the root div. From there, React takes control of all rendering. Th
+The Index.html is a single file as the entry point. React mounts the entire application inside the root div. From there, React takes control of all rendering. 
 
 The Navbar.jsx which is a stateless UI component is responsible only for displaying navigations and CTA buttons etc. layouts and is just purely for presentation.
 
